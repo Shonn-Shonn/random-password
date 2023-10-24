@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    background-color: rgb(56, 23, 65);
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.show-password
+{
+    border:2px solid white;
+    padding: 1.5rem 2rem;
+    font-size:1.7rem;
+}
+
+.action 
+{
+    margin: 1.5rem;
+}
+
+.checkbox
+{
+    margin:1.5rem;
+}
+
+.checkbox > * 
+{
+    margin: 2rem;
+}
