@@ -4,21 +4,21 @@ body{
 
 .container
 {
-    background-color: rgb(56, 23, 65);
+    background-color: rgb(9, 50, 66);
     margin: 0 auto;
     width: 700px;
-    height: 700px;
+    height: 450px;
     color: white;
     display: flex;
     flex-direction: column;
-
 }
 
 .show-password
 {
-    border:2px solid white;
+    border:3px solid white;
     padding: 1.5rem 2rem;
-    font-size:1.7rem;
+    font-size:1.3rem;
+    text-align: center;
 }
 
 .action 
@@ -26,12 +26,19 @@ body{
     margin: 1.5rem;
 }
 
-.checkbox
+.wrapper
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox,.radio,.range
 {
     margin:1.5rem;
 }
 
-.checkbox > * 
+.checkbox > * , .radio > * , .range > *
 {
-    margin: 2rem;
+    margin: .9rem;
 }
+
